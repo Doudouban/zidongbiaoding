@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -g   -shared -Wl,-soname,libcommon_shared.so -o libcommon_shared.so CMakeFiles/common_shared.dir/common/MatViewer.cpp.o CMakeFiles/common_shared.dir/common/PointCloudViewer.cpp.o 

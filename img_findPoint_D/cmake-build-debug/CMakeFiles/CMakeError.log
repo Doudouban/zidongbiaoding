@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf2a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf2a6.dir/build.make CMakeFiles/cmTC_cf2a6.dir/build
+make[1]: Entering directory '/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf2a6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf2a6.dir/CheckSymbolExists.c.o   -c "/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_cf2a6
+/home/doudouban/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf2a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cf2a6.dir/CheckSymbolExists.c.o  -o cmTC_cf2a6 
+CMakeFiles/cmTC_cf2a6.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf2a6.dir/build.make:86: recipe for target 'cmTC_cf2a6' failed
+make[1]: *** [cmTC_cf2a6] Error 1
+make[1]: Leaving directory '/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_cf2a6/fast' failed
+make: *** [cmTC_cf2a6/fast] Error 2
+
+File /home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6d96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6d96.dir/build.make CMakeFiles/cmTC_c6d96.dir/build
+make[1]: Entering directory '/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6d96.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c6d96.dir/CheckFunctionExists.c.o   -c /home/doudouban/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6d96
+/home/doudouban/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d96.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c6d96.dir/CheckFunctionExists.c.o  -o cmTC_c6d96 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c6d96.dir/build.make:86: recipe for target 'cmTC_c6d96' failed
+make[1]: *** [cmTC_c6d96] Error 1
+make[1]: Leaving directory '/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c6d96/fast' failed
+make: *** [cmTC_c6d96/fast] Error 2
+
+

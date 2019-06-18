@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="img_findPoint"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\;CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\Modules\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="img_findPoint">
+				<Option output="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/img_findPoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include/pcl-1.9"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 img_findPoint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="img_findPoint/fast">
+				<Option output="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug/img_findPoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include/pcl-1.9"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 img_findPoint/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/doudouban/projects/new\ exp\ 201812/Calibrtion\ experiment/img_findPoint_D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/Tsai.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/Tsai.h">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/findPoint.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/findPoint.h">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/get_Rt.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/get_Rt.h">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/kmeans.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/kmeans.h">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/main.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/point.cpp">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/point.h">
+			<Option target="img_findPoint"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/pcl-1.9/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/pcl-1.9/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/pcl-1.9/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\Modules\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/pcl-1.9/Modules/FindFLANN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\Modules\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/local/share/pcl-1.9/Modules/FindQhull.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\pcl-1.9\Modules\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/VTKTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/doudouban/projects/new exp 201812/Calibrtion experiment/img_findPoint_D/../../../../../../usr/lib/vtk-5.10/CMake/vtkMakeInstantiator.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
